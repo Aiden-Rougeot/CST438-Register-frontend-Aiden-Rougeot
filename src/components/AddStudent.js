@@ -75,10 +75,10 @@ class AddStudent extends Component {
                         onChange={this.handleChange} value={this.state.email} /> 
                     <br/>
                     <br/>
-                    <Button variant="outlined" color="primary" style={{margin: 10}}
+                    <Button id="submit" variant="outlined" color="primary" style={{margin: 10}}
                         onClick={this.handleSubmit} >Submit</Button>
                     
-                    <ToastContainer autoClose={1500} />
+                    <ToastContainer autoClose={2000} />
                 </div>
             </div>
         )
